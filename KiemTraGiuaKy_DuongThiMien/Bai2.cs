@@ -48,11 +48,15 @@ namespace KiemTraGiuaKy_DuongThiMien
     {
         static void Main(string[] args)
         {
-            Animal cat = new Cat();
+            Console.WriteLine("This is Cat");
+            Cat cat = new Cat();
             cat.eat();
+            cat.run();
             cat.makeSound();
-            Animal bird = new Bird();
+            Console.WriteLine("This is Bird");
+            Bird bird = new Bird();
             bird.eat();
+            bird.fly();
             bird.makeSound();
         }
     }
